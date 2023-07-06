@@ -1,6 +1,7 @@
 * {
   padding: 0px;
-  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -10,40 +11,25 @@ body {
 }
 
 header {
-
 	display: flex;
 	justify-content: space-between;
 	padding: 25px;
-    width: 96,2%;
     background-color: #dbba61;
-    height: 40px;
+    height: 90px;
 }
 
-header .logo-robotica {
-  width: 200px;
-  transition: 0.2s ease-in-out;
-  margin-bottom: 20px;
+header .logo-robotica{
+	width: 200px;
+	transition: 0.2s ease-in-out;
 }
 
-header .imagem-botao {
-  width: 40px;
-  height: 35px;
-  transition: 0.2s ease-in-out;
-  margin-top: 5px;
-}
 
 header .logo-robotica:hover {
-  transform: scale(1.05);
-  cursor: pointer;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
-header .imagem-botao:hover {
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
-
-.container-video {
+ .container-video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,14 +37,13 @@ header .imagem-botao:hover {
 }
 
 .video {
-  margin: 20px;
-  width: 100%;
-  height: 500px;
+    margin: 20px;
+    width: 100%;
+    height: 500px;
 }
 
 .robotica-banner{
     margin: 20px;
-    max-width: 100%;
 }
 
 .robotica-banner img {
@@ -71,32 +56,31 @@ header .imagem-botao:hover {
     justify-content: center;
     align-items: center;
     margin: 30px;
-    padding: 35px;
+    padding: 45px;
 }
   
-  .botoes img {
+.botoes img {
     padding: 25px;
 }
   
-  .animacao-botao {
+.animacao-botao {
     transition: 0.2s ease-in-out;
 }
   
-  .animacao-botao:hover {
-    transform: scale(1.05);
+.animacao-botao:hover {
+    transform: scale(1.10);
     cursor: pointer;
 }
-  
 
 .titulo-barra {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 85%;
-  border: 10px solid #dbba61;
-  border-radius: 60px;
-  background-color: #dbba61;
-  margin: 130px auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+    border-radius: 60px;
+    background-color: #dbba61;
+    margin: 10px auto auto;
 }
 
 .titulo{
@@ -114,7 +98,165 @@ header .imagem-botao:hover {
     font-size: 40px;
     line-height: 55px;
     text-align: justify;
-    margin: 50px;
+    margin: 55px;
+    margin-bottom: 100px;
+    margin-top: 80px;
     color: #0b3b08;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: #dbba61;
+    width: 350px;
+    height: 560px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.cartao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.titulo-card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #037414;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+.informacao-contato{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #037414;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: justify;
+    max-height: 70px;
+    font-size: 17px;
+    width: 300px;
+    padding-top: 25px;
+}
+
+.pontos-coleta{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #037414;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+    width: 330px;
+}
+
+
+::-webkit-scrollbar {
+	width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #06b620e1;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background-color: #046613e1;
+}
+
+footer {
+    background-color: #dbba61;
+    padding: 15px;
+    text-align: center;
+}
+  
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    row-gap: 10px;
+    margin-left: 100px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 5px;
+}
+
+.item p {
+    color: #037414;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.item a img {
+    margin-right: 10px;
+}
+
+.copyright{
+    color: #037414;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
 }
