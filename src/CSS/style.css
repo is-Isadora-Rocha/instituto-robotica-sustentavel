@@ -22,7 +22,12 @@ header {
 header .logo-robotica{
 	width: 200px;
 	transition: 0.2s ease-in-out;
-    margin-bottom: 20px;
+}
+
+header .logo-robotica {
+  width: 200px;
+  transition: 0.2s ease-in-out;
+  margin-bottom: 20px;
 }
 
 header .imagem-botao {
@@ -115,5 +120,133 @@ header .imagem-botao:hover {
     text-align: justify;
     margin: 50px;
     color: #0b3b08;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cartao {
+    background-color: #dbba61;
+    width: 350px;
+    height: 560px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 40px;
+}
+
+.cartao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.titulo-card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #037414;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.informacao {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #037414;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+    max-height: 80px;
+}
+
+.pontos-coleta{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #037414;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+
+::-webkit-scrollbar {
+	width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #06b620e1;
+	border-radius: 10px;
+	border: 3px solid #ffffff;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background-color: #046613e1;
+}
+
+footer {
+    background-color: #dbba61;
+    padding: 15px;
+    text-align: center;
+}
+  
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    row-gap: 10px;
+  }
+  
+.item {
+    display: flex;
+    align-items: center;
+}
+  
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 5px; 
+}
+  
+.item p {
+    color: #037414;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.copyright{
+    color: #037414;
+    font-weight: 700;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
