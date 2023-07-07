@@ -19,9 +19,36 @@
 }
 
 .banner-educacao img {
-    height: 390px;
+    height: 490px;
     position: absolute;
     left: 50%;
-    top: -90px;
+    top: -140px;
     transform: translateX(-50%);
+}
+
+.cursos h2, .oficinas h2 {
+	font-family: 'Baloo', sans-serif;
+	color: #05a71c;
+	font-size: 50px;
+}
+
+.cursos h2 {
+	margin-left: 50px;
+}
+
+.oficinas h2 {
+	margin-left: 1020px;
+}
+
+.cursos p, .oficinas p {
+	font-family: 'Baloo', sans-serif;
+	color: #0b5516;
+	font-size: 20px;
+}
+
+.ass-maker-social h2 {
+	font-family: 'Baloo', sans-serif;
+	color: #198a30;
+	font-size: 50px;
+
 }
