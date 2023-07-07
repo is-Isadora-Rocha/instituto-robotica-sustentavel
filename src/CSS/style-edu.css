@@ -1,0 +1,27 @@
+* {
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+  }
+  
+  body {
+	height: 100%;
+	margin: 0;
+	background-color: #faf1d2;
+  }
+
+  header {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+    background-color: #dbba61;
+    height: 200px;
+}
+
+.banner-educacao img {
+    height: 390px;
+    position: absolute;
+    left: 50%;
+    top: -90px;
+    transform: translateX(-50%);
+}

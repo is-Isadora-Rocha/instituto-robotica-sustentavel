@@ -18,11 +18,6 @@ header {
     height: 90px;
 }
 
-header .caixa-logo {
-    width: 200px;
-    transition: 0.2s ease-in-out;
-}
-
 header .logo-robotica{
 	width: 200px;
 	transition: 0.2s ease-in-out;
