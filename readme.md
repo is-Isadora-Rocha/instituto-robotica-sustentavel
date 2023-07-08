@@ -8,7 +8,7 @@ Esse projeto foi feito e será mantido/atualizado por estudantes e voluntários 
 
 
 
-### Contrubuidores
+### Contribuidores
 
 <table>
   <tr>
@@ -21,10 +21,18 @@ Esse projeto foi feito e será mantido/atualizado por estudantes e voluntários 
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/is-Isadora-Rocha">
+      <a href="https://github.com/Madsonosv">
         <img src="https://github.com/is-Isadora-Rocha.png" width="100px;" alt="Foto do Isadora Rocha no GitHub"/><br>
         <sub>
           <b>Isadora Rocha</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Madsonosv">
+        <img src="https://github.com/Madsonosv.png" width="100px;" alt="Foto do Madson no GitHub"/><br>
+        <sub>
+          <b>Madson</b>
         </sub>
       </a>
     </td>
