@@ -1,27 +1,28 @@
-header{
-    height: 100px;
+header {
+    height: 6.25rem;
+    justify-content: center;
 }
 
-header .logo-robotica{
-	width: 200px;
+header .logo-robotica {
+    width: 12.5rem;
     display: flex;
-    margin-left: 130px;
+    justify-content: center;
 }
 
-.container-video{
+.container-video {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .video {
-    margin: 20px;
+    margin: 1.25rem;
     width: 100%;
-    height: 270px;
+    height: 16.875rem;
 }
 
-.robotica-banner{
-    margin: 20px;
+.robotica-banner {
+    margin: 1.25rem;
     display: flex;
     justify-content: center;
 }
@@ -35,18 +36,18 @@ header .logo-robotica{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10px;
-    padding: 25px;
+    margin: 0.625rem;
+    padding: 1.5625rem;
 }
-  
+
 .botoes img {
-    padding: 20px;
+    padding: 1.25rem;
 }
-  
+
 .animacao-botao {
     transition: 0.2s ease-in-out;
 }
-  
+
 .animacao-botao:hover {
     transform: scale(1.10);
     cursor: pointer;
@@ -56,64 +57,65 @@ header .logo-robotica{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    height: 80px;
-    border-radius: 60px;
+    width: 20.3125rem;
+    height: 5rem;
+    border-radius: 3.75rem;
     background-color: var(--background-details);
-    margin: 10px auto auto;
+    margin: 0.625rem auto auto;
 }
 
-.titulo{
+.titulo {
     color: var(--color-text);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 35px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 
-.titulo-como-doar{
+.titulo-como-doar {
     color: var(--color-text);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 35px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 
 footer {
     background-color: var(--background-details);
-    padding: 15px;
+    padding: 0.9375rem;
     text-align: center;
 }
-  
+
 .footer-content {
     display: block;
-    row-gap: 10px;
-    margin-left: 10px;
+    row-gap: 0.625rem;
+    margin-left: 0.625rem;
 }
 
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .item img {
     max-width: 100%;
     height: auto;
-    margin-right: 5px;
+    margin-right: 0.3125rem;
 }
 
 .item p {
     color: var(--color-text-card);
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: left;
 }
 
 .item a {
@@ -123,12 +125,12 @@ footer {
 }
 
 .item a img {
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
-.copyright{
+.copyright {
     color: var(--color-text-card);
     font-weight: 700;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
