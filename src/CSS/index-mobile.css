@@ -1,0 +1,136 @@
+header {
+    height: 6.25rem;
+    justify-content: center;
+}
+
+header .logo-robotica {
+    width: 12.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    margin: 1.25rem;
+    width: 100%;
+    height: 16.875rem;
+}
+
+.robotica-banner {
+    margin: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.robotica-banner img {
+    width: 100%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.625rem;
+    padding: 1.5625rem;
+}
+
+.botoes img {
+    padding: 1.25rem;
+}
+
+.animacao-botao {
+    transition: 0.2s ease-in-out;
+}
+
+.animacao-botao:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.titulo-barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20.3125rem;
+    height: 5rem;
+    border-radius: 3.75rem;
+    background-color: var(--background-details);
+    margin: 0.625rem auto auto;
+}
+
+.titulo {
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+.titulo-como-doar {
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+}
+
+footer {
+    background-color: var(--background-details);
+    padding: 0.9375rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: block;
+    row-gap: 0.625rem;
+    margin-left: 0.625rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.9375rem;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0.3125rem;
+}
+
+.item p {
+    color: var(--color-text-card);
+    font-weight: 900;
+    font-size: 1.125rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.item a img {
+    margin-right: 0.625rem;
+}
+
+.copyright {
+    color: var(--color-text-card);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
