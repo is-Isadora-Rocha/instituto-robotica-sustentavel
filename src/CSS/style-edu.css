@@ -33,22 +33,54 @@
 }
 
 .cursos h2 {
-	margin-left: 50px;
+	margin-left: 60px;
 }
 
 .oficinas h2 {
 	margin-left: 1020px;
+	float: left;
 }
 
-.cursos p, .oficinas p {
+.cursos p {
 	font-family: 'Baloo', sans-serif;
 	color: #0b5516;
 	font-size: 20px;
+	margin-left: 60px;
+	text-align: justify;
+	margin-right: 60px;
+	width: calc(100% - 200px);
+	float: left;
 }
+
+.oficinas p {
+	font-family: 'Baloo', sans-serif;
+	color: #0b5516;
+	font-size: 20px;
+	margin-left: 60px;
+	text-align: justify;
+	margin-right: 55px;
+	margin-top: 80px;
+	width: calc(100% - 200px);
+	float: right;
+}
+
+
+.cilindro {
+	width: 80%;
+	height: 15px;
+	background-color: #dbba61;
+	position: absolute;
+	top: 85%;
+	margin-left: 120px;
+	transform: translateY(-50%);
+	border-radius: 5px;
+  }
+  
 
 .ass-maker-social h2 {
 	font-family: 'Baloo', sans-serif;
 	color: #198a30;
 	font-size: 50px;
-
+	margin-left: 60px;
+	text-align: justify;
 }
