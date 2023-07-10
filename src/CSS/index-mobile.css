@@ -17,7 +17,7 @@ header .logo-robotica {
 
 .video {
     margin: 1.25rem;
-    width: 100%;
+    width: 100rem;
     height: 16.875rem;
 }
 
@@ -109,7 +109,7 @@ footer {
 }
 
 .item p {
-    color: var(--color-text-card);
+    color: var(--color-text-2);
     font-weight: 900;
     font-size: 1.125rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -129,8 +129,12 @@ footer {
 }
 
 .copyright {
-    color: var(--color-text-card);
+    color: var(--color-text-2);
     font-weight: 700;
     font-size: 0.9375rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quebra-linha{
+    word-break: break-all;
 }
