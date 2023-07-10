@@ -26,13 +26,13 @@
     transform: translateX(-50%);
 }
 
-.cursos h2, .oficinas h2 {
+.eventos h2, .oficinas h2 {
 	font-family: 'Baloo', sans-serif;
 	color: #05a71c;
 	font-size: 50px;
 }
 
-.cursos h2 {
+.eventos h2 {
 	margin-left: 60px;
 }
 
@@ -41,7 +41,7 @@
 	float: left;
 }
 
-.cursos p {
+.eventos p {
 	font-family: 'Baloo', sans-serif;
 	color: #0b5516;
 	font-size: 20px;
