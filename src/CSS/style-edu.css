@@ -110,3 +110,41 @@
 	margin-left: 60px;
 	text-align: justify;
 }
+
+.ass-maker-social p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #0b5516;
+	font-size: 20px;
+	margin-left: 60px;
+	text-align: justify;
+}
+
+
+.formulario {
+	margin: 20px;
+}
+
+.lista {
+	list-style-type: none;
+	padding: 0;
+}
+
+.lista li {
+	margin-bottom: 10px;
+}
+
+.lista label {
+	font-family: 'Baloo', sans-serif;	
+	color: #0b5516;
+	font-size: 25px;
+}
+  
+.lista input[type="text"],
+.lista input[type="email"],
+.lista input[type="tel"] {
+  width: calc(100% - 40px);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #FFCC99;
+}
