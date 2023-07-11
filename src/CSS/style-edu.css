@@ -1,3 +1,10 @@
+:root {
+    --background: #ffffff;
+    --color-text: #05a61d;
+    --background-details: #F2D16D;
+    --color-text-2: #20731d;
+}
+
 * {
 	padding: 0px;
 	box-sizing: border-box;
@@ -26,13 +33,13 @@
     transform: translateX(-50%);
 }
 
-.cursos h2, .oficinas h2 {
+.eventos h2, .oficinas h2 {
 	font-family: 'Baloo', sans-serif;
 	color: #05a71c;
 	font-size: 50px;
 }
 
-.cursos h2 {
+.eventos h2 {
 	margin-left: 60px;
 }
 
@@ -41,8 +48,8 @@
 	float: left;
 }
 
-.cursos p {
-	font-family: 'Baloo', sans-serif;
+.eventos p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #0b5516;
 	font-size: 20px;
 	margin-left: 60px;
@@ -52,8 +59,18 @@
 	float: left;
 }
 
+.eventos img {
+	position: absolute;
+	top: 250px;
+	right: 150px;
+	width: 500px;
+	height: 300px; 
+	background-size: cover;
+  	background-position: center;
+}
+
 .oficinas p {
-	font-family: 'Baloo', sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: #0b5516;
 	font-size: 20px;
 	margin-left: 60px;
@@ -64,6 +81,15 @@
 	float: right;
 }
 
+.oficinas img {
+	position: absolute;
+	top: 550px;
+	left: 150px;
+	width: 500px;
+	height: 300px; 
+	background-size: cover;
+  	background-position: center;
+}
 
 .cilindro {
 	width: 80%;
