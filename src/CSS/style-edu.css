@@ -78,13 +78,12 @@
 	margin-right: 55px;
 	margin-top: 80px;
 	width: calc(100% - 200px);
-	float: right;
 }
 
 .oficinas img {
 	position: absolute;
-	top: 550px;
-	left: 150px;
+	top: 250px;
+	right: 150px;
 	width: 500px;
 	height: 300px; 
 	background-size: cover;
@@ -119,7 +118,6 @@
 	text-align: justify;
 }
 
-
 .formulario {
 	margin: 20px;
 }
@@ -138,6 +136,16 @@
 	color: #0b5516;
 	font-size: 25px;
 }
+
+.banner-maker {
+	float: left;
+	top: 600px;
+	right: 150px;
+	width: 500px;
+	height: 300px; 
+	display: flex;
+  	align-items: center;
+}
   
 .lista input[type="text"],
 .lista input[type="email"],
@@ -146,5 +154,7 @@
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
-  background-color: #FFCC99;
+  background-color: #dbba61;
+
 }
+
