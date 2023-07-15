@@ -1,0 +1,163 @@
+:root {
+    --background: #ffffff;
+    --color-text: #05a61d;
+    --background-details: #F2D16D;
+    --color-text-2: #20731d;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--background);
+}
+
+header {
+    display: flex;
+    padding: 1.5625rem;
+    background-color: var(--background-details);
+    height: 5.625rem;
+    justify-content: center;
+}
+
+.titulo-sustentabilidade {
+    color: var(--color-text);
+    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fundo-titulo {
+    background-color: var(--background-details);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    height: 45px;
+}
+
+.sub-titulo {
+    color: var(--color-text);
+    font-size: 20px;
+    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.img-ponto-colega {
+    display: flex;
+    margin: 40px;
+}
+
+.img-ponto-colega img{
+    width: 100%;
+}
+
+.footer-content {
+    position: relative;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.footer-content img {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.label-float {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.logo-robotica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-details);
+    border-radius: 20px;
+    margin: 50px;
+    height: 40px;
+}   
+
+.img-celz{
+    display: flex;
+    position: relative;
+}
+
+.container-inputs{
+    position: absolute;
+    left: 290px;
+    top: 220px;
+    transform: translate(-290px, -220px);
+    padding-top: 20px;
+}
+
+.label-float input{
+    width: 500px;
+    height: 45px;
+    margin-left: 40px;
+    display: inline-block;
+    background-color: var(--background-details);
+    min-width: 180px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus{
+    border: 2px solid var(--background-details);
+}
+
+.label-float label{
+    color: var(--color-text-2);
+    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 17px;    
+    margin-left: 60px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 10px;
+    color: #4038a0
+}
+
+button{  
+    background-color: transparent;
+    border-color: black;
+    border: 3px solid;
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+    margin-left: 250px;
+    width: 90px;
+    height: 50px;
+}
+  
+  button:hover{
+    background-color: var(--background-details);
+    border-color: var(--background-details);
+    color: black;
+  }

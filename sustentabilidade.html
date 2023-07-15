@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este é o site do Instituto Robótica Sustentável">
+    <meta name="keywords" content="Sustentável, sustentabilidade, educação, robótica">
+    <meta name="author" content="Isadora Rocha, Kauan Carolino, Madson Oliveira, Santiago Nogueira">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/CSS/sustentabilidade.css">
+
+    <link href="./src/JS/sustentabilidade.js">
+    <link href='https://fonts.googleapis.com/css?family=Baloo' rel='stylesheet'>
+    <link rel="icon" href="./src/assets/img/robotica-logo-icon.png" type="image/png">
+    <title>Robótica Sustentável</title>
+</head>
+
+<body>
+
+    <header class="titulo-sustentabilidade">
+        <h1>sustentabilidade</h1>
+    </header>
+
+    <section class="sub-titulo">
+        <h2 class="fundo-titulo">como atuamos/pontos de coleta</h2>
+    </section>
+
+
+    <main class="img-ponto-colega">
+        <img src="./src/assets/img/como-atuamos-e-pontos-de-coleta.png" alt="imagem que mostra como a Robótica Sustentável atua e os pontos de coleta de material" width="100">
+    </main>
+
+    <div class="logo-robotica">
+        <img width="100px" height="80px"  src="./src/assets/img/logo.png">
+    </div>
+
+    <footer class="footer-content">
+        <img src="./src/assets/img/campanha-e-lixo-zero.png">
+
+        <section class="img-celz">
+            
+            <div>
+                <img src="./src/assets/img/cadastro-elixo-zero.png">
+            </div> 
+
+            <section class="container-inputs">
+
+                <div id="msgError"></div>
+
+                <div class="label-float">
+                    <input type="text" paceholder="" required />
+                    <label for="nome">Nome</label>
+                </div>
+
+                <div id="msgError"></div>
+
+                <div class="label-float">
+                    <input attrname="telephone" type="text" placeholder="" required/>
+                    <label for="tel">Telefone</label>
+                </div>
+
+                <div id="msgError"></div>
+
+                <div class="label-float">
+                    <input type="email" paceholder="" required />
+                    <label for="email">Email</label>
+                </div>
+
+                <div id="msgError"></div>
+
+                <div class="label-float">
+                    <input type="text" paceholder="" required />
+                    <label for="endereco">Endereço</label>
+                </div>
+                
+                <div class="Justify-center">
+                    <button onclick="enviar()">Enviar</button>
+                </div>
+        
+            </section>
+
+        </section>
+
+    </footer>
+
+</body>
+</html>
