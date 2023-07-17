@@ -15,9 +15,11 @@ body {
     height: 100%;
     margin: 0;
     background-color: var(--background);
+    font-size: 16px;
 }
 
 header {
+    width: 100%;
     display: flex;
     padding: 1.5625rem;
     background-color: var(--background-details);
@@ -29,64 +31,64 @@ header {
     color: var(--color-text);
     font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .fundo-titulo {
     background-color: var(--background-details);
     text-align: center;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
-    height: 45px;
+    height: 2.8125rem;
 }
 
 .sub-titulo {
     color: var(--color-text);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 .img-ponto-colega {
     display: flex;
-    margin: 40px;
+    margin: 2.5rem;
 }
 
-.img-ponto-colega img{
+.img-ponto-colega img {
     width: 100%;
 }
 
 .footer-content {
     position: relative;
     justify-content: center;
-    margin: 20px;
+    margin: 1.25rem;
     margin-bottom: 0;
 }
 
 .footer-content img {
     width: 100%;
-    margin-bottom: -5px;
+    margin-bottom: -0.3125rem;
 }
 
 .label-float {
     display: flex;
     align-items: center;
     position: relative;
-    margin-top: 10px;
-    margin-bottom: 2px;
+    margin-top: 0.625rem;
+    margin-bottom: 0.125rem;
 }
 
-.logo-robotica{
+.logo-robotica {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--background-details);
-    border-radius: 20px;
-    margin: 50px;
-    height: 40px;
-}   
+    border-radius: 1.25rem;
+    margin: 3.125rem;
+    height: 2.5rem;
+}
 
 .img-celz {
     display: flex;
@@ -95,19 +97,21 @@ header {
 }
 
 p {
-    top: 0px;
+    top: 0;
     left: 0;
     position: sticky;
-    margin-top: -300px;
-    margin-left: 60px;
-    font-size: 40px;
+    margin-top: -20rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    font-size: 2.5rem;
     font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--background-details);
+    color: black;
     text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background-color: #ffffff;
 }
 
-mark{
+mark {
     background-color: var(--background-details);
 }
-
-
