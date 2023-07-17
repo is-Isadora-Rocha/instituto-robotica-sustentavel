@@ -88,76 +88,26 @@ header {
     height: 40px;
 }   
 
-.img-celz{
+.img-celz {
     display: flex;
     position: relative;
+    justify-content: center;
 }
 
-.container-inputs{
-    position: absolute;
-    left: 290px;
-    top: 220px;
-    transform: translate(-290px, -220px);
-    padding-top: 20px;
-}
-
-.label-float input{
-    width: 500px;
-    height: 45px;
-    margin-left: 40px;
-    display: inline-block;
-    background-color: var(--background-details);
-    min-width: 180px;
-    font-size: 16px;
-    border-radius: 20px;
-    border: 0;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    transition: all .3s ease-out;
-}
-
-.label-float input:focus{
-    border: 2px solid var(--background-details);
-}
-
-.label-float label{
-    color: var(--color-text-2);
-    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
+p {
+    top: 0px;
     left: 0;
-    margin-top: 17px;    
+    position: sticky;
+    margin-top: -300px;
     margin-left: 60px;
-    transition: all .3s ease-out;
+    font-size: 40px;
+    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--background-details);
+    text-align: center;
 }
 
-.label-float input:focus + label,
-.label-float input:valid + label{
-    font-size: 13px;
-    margin-top: 10px;
-    color: #4038a0
-}
-
-button{  
-    background-color: transparent;
-    border-color: black;
-    border: 3px solid;
-    color: black;
-    font-weight: bold;
-    font-size: 15pt;
-    border-radius: 4px;
-    cursor: pointer;
-    outline: none;
-    transition: all .4s ease-out;
-    margin-left: 250px;
-    width: 90px;
-    height: 50px;
-}
-  
-  button:hover{
+mark{
     background-color: var(--background-details);
-    border-color: var(--background-details);
-    color: black;
-  }
+}
+
+
