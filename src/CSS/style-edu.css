@@ -33,6 +33,11 @@
     transform: translateX(-50%);
 }
 
+.eventos {
+	position: relative;
+  	display: flex;
+  	align-items: center;
+}
 .eventos h2, .oficinas h2 {
 	font-family: 'Baloo', sans-serif;
 	color: #05a71c;
@@ -45,7 +50,6 @@
 
 .oficinas h2 {
 	margin-left: 1020px;
-	float: left;
 }
 
 .eventos p {
@@ -53,20 +57,19 @@
 	color: #0b5516;
 	font-size: 20px;
 	margin-left: 60px;
-	text-align: justify;
+	text-align: left;
 	margin-right: 60px;
 	width: calc(100% - 200px);
-	float: left;
 }
 
-.eventos img {
-	position: absolute;
-	top: 250px;
-	right: 150px;
+.img-eventos img {
+	margin-left: 45rem;
+	height: 360px;
 	width: 500px;
-	height: 300px; 
-	background-size: cover;
-  	background-position: center;
+	padding: 10px;
+	margin-top: -10rem;
+	border-radius: 40px;
+	float:right;
 }
 
 .oficinas p {
@@ -81,21 +84,16 @@
 }
 
 .oficinas img {
-	position: absolute;
-	top: 250px;
-	right: 150px;
-	width: 500px;
-	height: 300px; 
-	background-size: cover;
-  	background-position: center;
+	top: 300px;
+	height: 20rem;
 }
 
-.cilindro {
+.barra {
 	width: 80%;
 	height: 15px;
 	background-color: #dbba61;
-	position: absolute;
-	top: 85%;
+	position: relative;
+	top: -710px;
 	margin-left: 120px;
 	transform: translateY(-50%);
 	border-radius: 5px;
@@ -118,43 +116,21 @@
 	text-align: justify;
 }
 
-.formulario {
-	margin: 20px;
-}
-
-.lista {
-	list-style-type: none;
-	padding: 0;
-}
-
-.lista li {
-	margin-bottom: 10px;
-}
-
 .lista label {
 	font-family: 'Baloo', sans-serif;	
 	color: #0b5516;
 	font-size: 25px;
 }
-
-.banner-maker {
-	float: left;
-	top: 600px;
-	right: 150px;
-	width: 500px;
-	height: 300px; 
-	display: flex;
-  	align-items: center;
-}
   
-.lista input[type="text"],
-.lista input[type="email"],
-.lista input[type="tel"] {
-  width: calc(100% - 40px);
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  background-color: #dbba61;
-
-}
+.lista input {
+    width: 20px;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    background-color: var(--background-details);
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
 
