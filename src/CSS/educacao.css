@@ -1,0 +1,161 @@
+:root {
+    --background: #ffffff;
+    --color-text: #05a61d;
+    --background-details: #F2D16D;
+    --color-text-2: #20731d;
+}
+
+* {
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-color: var(--background);
+	font-size: 16px; 
+}
+
+header {
+	display: flex;
+	padding: 1.5625rem;
+    background-color: var(--background-details);
+    height: 11.25rem; 
+	justify-content: center;
+}
+
+.banner-educacao img {
+	width: 56.25rem; 
+	height: 8.75rem; 
+	margin-top: -1.5625rem; 
+}
+
+.eventos {
+	position: relative;
+}
+
+.eventos h2,
+.oficinas h2 {
+	font-family: Baloo, sans-serif;
+	color: var(--color-text);
+	font-size: 3.125rem; 
+}
+
+.eventos h2 {
+	margin-left: 3.75rem;
+}
+
+.oficinas h2 {
+	margin-bottom: 2.5625rem;
+	margin-right: 3.75rem;
+	margin-left: 63.75rem; 
+	float: right;
+}
+
+.eventos p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: var(--color-text-2);
+	font-size: 1.75rem;
+	margin-left: 3.75rem; 
+	text-align: justify;
+	width: 45%; 
+}
+
+.img-eventos{
+    display: flex;
+	align-items: center;
+	justify-content: end;
+	margin-left: 3rem; 
+
+}
+
+.img-eventos img {
+	height: 28.75rem;
+	width: 37.5rem; 
+	margin-top: -40%; 
+	border-radius: 2.5rem; 
+	margin-right: 1.25rem; 
+}
+
+.container-barra {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.barra {
+	width: 80%;
+	height: 1.5625rem; 
+	background-color: var(--background-details);
+	margin-top: 1.875rem; 
+	border-radius: 0.5rem; 
+}
+
+.oficinas p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: var(--color-text-2);
+	font-size: 1.75rem; 
+	margin-left: 40rem; 
+	margin-right: 3.75rem; 
+	text-align: justify;
+	width: 45%; 
+	float: right;
+}
+
+.img-oficinas img {
+	height: 28.75rem; 
+	width: 37.5rem; 
+	margin-top: -31.25rem; 
+	float: left;
+	margin-left: 1.25rem; 
+	border-radius: 2.5rem;
+}
+
+.footer-content {
+	position: relative;
+}
+
+.fundo {
+	width: 100%;
+	height: auto;
+}
+
+.aviso {
+	width: 37.5rem; 
+	position: sticky;
+	margin-top: -30rem; 
+	margin-left: 3.75rem;
+	margin-right: 3.75rem;
+	font-size: 2.5rem; 
+	font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	text-align: center;
+	border: 0.125rem solid var(--background); 
+	border-radius: 3.125rem;
+	background-color: var(--background);
+}
+
+mark {
+	background-color: var(--background-details);
+}
+
+::-webkit-scrollbar {
+    width: 0.875rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #06b620e1;
+    border-radius: 0.625rem;
+    border: 0.1875rem solid #ffffff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #046613e1;
+}
+

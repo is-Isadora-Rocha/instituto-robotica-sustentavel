@@ -115,3 +115,21 @@ p {
 mark {
     background-color: var(--background-details);
 }
+
+::-webkit-scrollbar {
+    width: 0.875rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #06b620e1;
+    border-radius: 0.625rem;
+    border: 0.1875rem solid #ffffff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #046613e1;
+}

@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header {
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+}
+
+.banner-educacao img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.eventos h2,
+.oficinas h2 {
+    font-size: 5rem;
+    justify-content: center;
+}
+
+.eventos p,
+.oficinas p {
+    width: 95%;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.img-eventos img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto; 
+    margin-right: 2rem; 
+}
+
+.img-oficinas img {
+    width: 95%;
+    height: auto;
+    margin-top: 1rem;
+    display: block; 
+    margin-left: 0.60rem; 
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container-barra{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.barra {
+    width: 90%;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.oficinas p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-content {
+}
+
+.fundo{
+    margin-top: 1rem; 
+    margin-bottom: -1rem;
+}
+
+.aviso {
+    width: 60%;
+    height: auto;
+    font-size: 0.90rem;
+    margin-top: -11rem; 
+    margin-right: 1rem;
+}
