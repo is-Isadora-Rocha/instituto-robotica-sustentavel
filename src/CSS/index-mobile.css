@@ -16,8 +16,8 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 1rem;
     margin-left: 1rem;
-    margin-top: -0.01rem;
 }
 
 nav ul li {
@@ -25,17 +25,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--color-text-2);
+    color: var(--text);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
-    font-family: 'Baloo', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-title);
     padding: 0.3125rem 0.625rem;
+    white-space: nowrap;
 }
 
 nav ul li a:hover {
     color: var(--background);
-    background-color: var(--color-text);
+    background-color: var(--text);
     border-radius: 0.3125rem;
 }
 
@@ -90,12 +91,12 @@ nav ul li a:hover {
     width: 20.3125rem;
     height: 5rem;
     border-radius: 3.75rem;
-    background-color: var(--background-details);
+    background-color: var(--details);
     margin: 0.625rem auto auto;
 }
 
 .titulo {
-    color: var(--color-text);
+    color: var(--title);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     text-align: center;
@@ -105,7 +106,7 @@ nav ul li a:hover {
 }
 
 .titulo-como-doar {
-    color: var(--color-text);
+    color: var(--title);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     text-align: center;
@@ -115,7 +116,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: var(--background-details);
+    background-color: var(--details);
     padding: 0.9375rem;
     text-align: center;
 }
@@ -139,7 +140,7 @@ footer {
 }
 
 .item p {
-    color: var(--color-text-2);
+    color: var(--text);
     font-weight: 900;
     font-size: 1.125rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -160,7 +161,7 @@ footer {
 }
 
 .copyright {
-    color: var(--color-text-2);
+    color: var(--text);
     font-weight: 700;
     font-size: 0.9375rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

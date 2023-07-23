@@ -124,14 +124,11 @@ main {
     line-height: 2rem;
 }
 
-.trabalhamos-titulo {
-    font-size: var(--text-size);
-    color: var(--title);
-    margin-bottom: 0.5rem;
-}
-
-.trabalhamos-texto {
-    margin-bottom: 0.5rem;
+.container-trabalhamos img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
 }
 
 ::-webkit-scrollbar {
