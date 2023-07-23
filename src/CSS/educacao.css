@@ -74,7 +74,7 @@ header {
 .img-eventos img {
 	height: 28.75rem;
 	width: 37.5rem; 
-	margin-top: -40%; 
+	margin-top: -50%; 
 	border-radius: 2.5rem; 
 	margin-right: 1.25rem; 
 }
@@ -120,6 +120,7 @@ header {
 .fundo {
 	width: 100%;
 	height: auto;
+	margin-bottom: -1rem;
 }
 
 .aviso {
