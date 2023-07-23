@@ -1,8 +1,11 @@
 :root {
     --background: #ffffff;
-    --color-text: #05a61d;
-    --background-details: #F2D16D;
-    --color-text-2: #20731d;
+    --title: #05a61d;
+    --details: #F2D16D;
+    --text: #20731d;
+
+	--font-title: Baloo, Geneva, Tahoma, sans-serif;
+    --font-text: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -21,7 +24,7 @@ body {
 header {
 	display: flex;
 	padding: 1.5625rem;
-    background-color: var(--background-details);
+    background-color: var(--details);
     height: 11.25rem; 
 	justify-content: center;
 }
@@ -38,8 +41,8 @@ header {
 
 .eventos h2,
 .oficinas h2 {
-	font-family: Baloo, sans-serif;
-	color: var(--color-text);
+	font-family: var(--font-title);
+	color: var(--title);
 	font-size: 3.125rem; 
 }
 
@@ -55,8 +58,8 @@ header {
 }
 
 .eventos p {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: var(--color-text-2);
+	font-family: var(--font-text);
+	color: var(--text);
 	font-size: 1.75rem;
 	margin-left: 3.75rem; 
 	text-align: justify;
@@ -88,14 +91,14 @@ header {
 .barra {
 	width: 80%;
 	height: 1.5625rem; 
-	background-color: var(--background-details);
+	background-color: var(--details);
 	margin-top: 1.875rem; 
 	border-radius: 0.5rem; 
 }
 
 .oficinas p {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: var(--color-text-2);
+	font-family: var(--font-text);
+	color: var(--text);
 	font-size: 1.75rem; 
 	margin-left: 40rem; 
 	margin-right: 3.75rem; 
@@ -130,7 +133,7 @@ header {
 	margin-left: 3.75rem;
 	margin-right: 3.75rem;
 	font-size: 2.5rem; 
-	font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+	font-family: var(--font-title);
 	color: black;
 	text-align: center;
 	border: 0.125rem solid var(--background); 
@@ -139,7 +142,7 @@ header {
 }
 
 mark {
-	background-color: var(--background-details);
+	background-color: var(--details);
 }
 
 ::-webkit-scrollbar {

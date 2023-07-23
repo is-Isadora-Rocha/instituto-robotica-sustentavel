@@ -1,8 +1,11 @@
 :root {
     --background: #ffffff;
-    --color-text: #05a61d;
-    --background-details: #F2D16D;
-    --color-text-2: #20731d;
+    --title: #05a61d;
+    --details: #F2D16D;
+    --text: #20731d;
+
+    --font-title: Baloo, Geneva, Tahoma, sans-serif;
+    --font-text: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -22,20 +25,20 @@ header {
     width: 100%;
     display: flex;
     padding: 1.5625rem;
-    background-color: var(--background-details);
+    background-color: var(--details);
     height: 5.625rem;
     justify-content: center;
 }
 
 .titulo-sustentabilidade {
-    color: var(--color-text);
-    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--title);
+    font-family: var(--font-title);
     align-items: center;
     font-size: 1.875rem;
 }
 
 .fundo-titulo {
-    background-color: var(--background-details);
+    background-color: var(--details);
     text-align: center;
     border-radius: 1.25rem;
     margin-left: 20%;
@@ -45,9 +48,9 @@ header {
 }
 
 .sub-titulo {
-    color: var(--color-text);
+    color: var(--title);
     font-size: 1.25rem;
-    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-title);
     letter-spacing: 0.125rem;
 }
 
@@ -84,7 +87,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-details);
+    background-color: var(--details);
     border-radius: 1.25rem;
     margin: 3.125rem;
     height: 2.5rem;
@@ -104,7 +107,7 @@ p {
     margin-left: 3.75rem;
     margin-right: 3.75rem;
     font-size: 2.5rem;
-    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-title);
     color: black;
     text-align: center;
     border: 2px solid #ffffff;
@@ -113,7 +116,7 @@ p {
 }
 
 mark {
-    background-color: var(--background-details);
+    background-color: var(--details);
 }
 
 ::-webkit-scrollbar {

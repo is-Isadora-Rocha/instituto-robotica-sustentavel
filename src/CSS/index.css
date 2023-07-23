@@ -1,8 +1,11 @@
 :root {
     --background: #ffffff;
-    --color-text: #05a61d;
-    --background-details: #F2D16D;
-    --color-text-2: #20731d;
+    --title: #05a61d;
+    --details: #F2D16D;
+    --text: #20731d;
+
+    --font-title: Baloo, Geneva, Tahoma, sans-serif;
+    --font-text: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -21,7 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5625rem;
-    background-color: var(--background-details);
+    background-color: var(--details);
     height: 5.625rem;
 }
 
@@ -50,16 +53,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: var(--color-text-2);
+    color: var(--text);
     text-decoration: none;
     font-size: 1.375rem;
-    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-title);
     padding: 0.3125rem 0.625rem;
 }
 
 nav ul li a:hover {
     color: var(--background);
-    background-color: var(--color-text);
+    background-color: var(--title);
     border-radius: 0.3125rem;
 }
 
@@ -113,13 +116,13 @@ nav ul li a:hover {
     width: 85%;
     height: 5rem;
     border-radius: 3.75rem;
-    background-color: var(--background-details);
+    background-color: var(--details);
     margin: 0.625rem auto auto;
 }
 
 .titulo {
-    color: var(--color-text);
-    font-family: Baloo, Arial, Helvetica, sans-serif;
+    color: var(--title);
+    font-family: var(--font-title);
     font-weight: 900;
     text-align: center;
     font-size: 2.5rem;
@@ -134,13 +137,13 @@ nav ul li a:hover {
     margin: 4rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    color: var(--color-text-2);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--text);
+    font-family: var(--font-text);
 }
 
 .titulo-como-doar {
-    color: var(--color-text);
-    font-family: Baloo, Arial, Helvetica, sans-serif;
+    color: var(--title);
+    font-family: var(--font-title);
     font-weight: 900;
     text-align: center;
     font-size: 2.5rem;
@@ -157,7 +160,7 @@ nav ul li a:hover {
 }
 
 .cartao {
-    background-color: var(--background-details);
+    background-color: var(--details);
     width: 21.875rem;
     height: 35rem;
     padding: 1.25rem;
@@ -176,10 +179,10 @@ nav ul li a:hover {
 }
 
 .titulo-card {
-    font-family: Baloo, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-title);
     letter-spacing: 4px;
     word-spacing: 2px;
-    color: var(--color-text-2);
+    color: var(--text);
     font-weight: 700;
     font-size: 1.625rem;
     margin-bottom: 0;
@@ -190,8 +193,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     border-radius: 0.625rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--color-text-2);
+    font-family: var(--font-text);
+    color: var(--text);
     font-weight: 900;
     line-height: 1.75rem;
     text-align: justify;
@@ -206,8 +209,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     border-radius: 0.625rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--color-text-2);
+    font-family: var(--font-text);
+    color: var(--text);
     font-weight: 700;
     padding: 1.25rem;
     line-height: 1.875rem;
@@ -238,7 +241,7 @@ nav ul li a:hover {
 
 footer {
     width: 100%;
-    background-color: var(--background-details);
+    background-color: var(--details);
     padding: 0.9375rem;
     text-align: center;
 }
@@ -264,10 +267,10 @@ footer {
 }
 
 .item p {
-    color: var(--color-text-2);
+    color: var(--text);
     font-weight: 700;
     font-size: 1.875rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-text);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -283,10 +286,10 @@ footer {
 }
 
 .copyright {
-    color: var(--color-text-2);
+    color: var(--text);
     font-weight: 700;
     font-size: 0.9375rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-text);
 }
 
 .whatsapp-link {
