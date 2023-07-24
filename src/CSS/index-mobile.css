@@ -1,6 +1,8 @@
 header {
     height: 8.25rem;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header .logo-robotica {
@@ -13,21 +15,20 @@ header .logo-robotica {
 
 nav ul {
     display: flex;
-    list-style-type: none;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 0.80rem;
 }
 
 nav ul li {
-    margin-right: 1.25rem;
+    margin-right: 0.25rem;
 }
 
 nav ul li a {
     color: var(--text);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     font-family: var(--font-title);
     padding: 0.3125rem 0.625rem;

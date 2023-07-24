@@ -9,7 +9,7 @@
     --font-title: Baloo, Geneva, Tahoma, sans-serif;
     --font-text: Verdana, Geneva, Tahoma, sans-serif;
 
-    --main-title-size: 5rem;
+    --main-title-size: 3rem;
     --title-size: 2rem;
     --text-size: 1.625rem;
     --data-size: 7rem;
@@ -47,7 +47,6 @@ main {
     font-family: var(--font-title);
     font-size: var(--main-title-size);
     color: var(--title);
-    margin-bottom: 1rem;
 }
 
 .container {
