@@ -9,7 +9,7 @@
     --font-title: Baloo, Geneva, Tahoma, sans-serif;
     --font-text: Verdana, Geneva, Tahoma, sans-serif;
 
-    --main-title-size: 3rem;
+    --main-title-size: 2rem;
     --title-size: 2rem;
     --text-size: 1.625rem;
     --data-size: 7rem;
@@ -35,7 +35,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     background-color: var(--details);
 }
 
@@ -90,7 +90,7 @@ main {
 }
 
 .equipe-section {
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .equipe {
@@ -147,3 +147,39 @@ main {
 *::-webkit-scrollbar-thumb:hover {
     background-color: #046613e1;
 }
+
+@media (max-width: 480px) {
+    header {
+      padding: 1rem;
+    }
+  
+    .main-title {
+      font-size: 1.5rem;
+    }
+  
+    .equipe img {
+      width: 10rem;
+      height: 15rem;
+      margin: 1rem 2rem;
+    }
+  
+    .equipe-titulo {
+      font-size: 1rem;
+      width: 12rem;
+      line-height: 1.5rem;
+    }
+  
+    .container-trabalhamos img {
+      margin-top: 1rem;
+    }
+  
+    .data {
+      font-size: 3.5rem;
+      line-height: 5rem;
+    }
+  
+    .data-conteudo {
+      font-size: 1rem;
+      padding: 0.5rem;
+    }
+  }

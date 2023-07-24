@@ -1,11 +1,4 @@
-* {
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-}
-
 header {
-    width: 100%;
     padding: 1rem;
     height: auto;
 }
@@ -18,34 +11,21 @@ header {
 
 .eventos h2,
 .oficinas h2 {
-    font-size: 5rem;
-    justify-content: center;
+    font-size: 3rem;
 }
 
 .eventos p,
 .oficinas p {
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 1rem;
 }
 
-.img-eventos img{
+.img-eventos img,
+.img-oficinas img {
     width: 100%;
     height: auto;
-    margin-top: 1rem;
-    display: block;
-    margin-left: auto; 
-    margin-right: 2rem; 
-}
-
-.img-oficinas img {
-    width: 95%;
-    height: auto;
-    margin-top: 1rem;
-    display: block; 
-    margin-left: 0.60rem; 
-    margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin: 1rem 0;
 }
 
 .container-barra{
@@ -61,11 +41,6 @@ header {
     margin-left: 2rem;
 }
 
-.oficinas p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
 .fundo{
     margin-top: 1rem; 
     margin-bottom: -1rem;
@@ -74,7 +49,8 @@ header {
 .aviso {
     width: 60%;
     height: auto;
-    font-size: 0.80rem;
-    margin-top: -10rem; 
+    font-size: 0.60rem;
+    margin-top: -7rem; 
     margin-left: 1rem;
+    border-radius: 2rem;
 }
