@@ -1,12 +1,30 @@
 header {
-    height: 6.25rem;
-    justify-content: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header .logo-robotica {
-    width: 12.5rem;
+    width: 100%;
     display: flex;
-    justify-content: center;
+}
+
+nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+
 }
 
 .container-video {
@@ -17,7 +35,7 @@ header .logo-robotica {
 
 .video {
     margin: 1.25rem;
-    width: 100%;
+    width: 100rem;
     height: 16.875rem;
 }
 
@@ -60,12 +78,12 @@ header .logo-robotica {
     width: 20.3125rem;
     height: 5rem;
     border-radius: 3.75rem;
-    background-color: var(--background-details);
+    background-color: var(--details);
     margin: 0.625rem auto auto;
 }
 
 .titulo {
-    color: var(--color-text);
+    color: var(--title);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     text-align: center;
@@ -75,7 +93,7 @@ header .logo-robotica {
 }
 
 .titulo-como-doar {
-    color: var(--color-text);
+    color: var(--title);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     text-align: center;
@@ -85,7 +103,7 @@ header .logo-robotica {
 }
 
 footer {
-    background-color: var(--background-details);
+    background-color: var(--details);
     padding: 0.9375rem;
     text-align: center;
 }
@@ -109,13 +127,14 @@ footer {
 }
 
 .item p {
-    color: var(--color-text-card);
+    color: var(--text);
     font-weight: 900;
     font-size: 1.125rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
     text-align: left;
+    word-break: break-all;
 }
 
 .item a {
@@ -129,8 +148,12 @@ footer {
 }
 
 .copyright {
-    color: var(--color-text-card);
+    color: var(--text);
     font-weight: 700;
     font-size: 0.9375rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quebra-linha{
+    word-break: break-all;
 }

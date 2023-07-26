@@ -1,0 +1,138 @@
+:root {
+    --background: #ffffff;
+    --title: #05a61d;
+    --details: #F2D16D;
+    --text: #20731d;
+
+    --font-title: Baloo, Geneva, Tahoma, sans-serif;
+    --font-text: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--background);
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 1.5625rem;
+    background-color: var(--details);
+    height: 5.625rem;
+    justify-content: center;
+}
+
+.titulo-sustentabilidade {
+    color: var(--title);
+    font-family: var(--font-title);
+    align-items: center;
+    font-size: 1.875rem;
+}
+
+.fundo-titulo {
+    background-color: var(--details);
+    text-align: center;
+    border-radius: 1.25rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    height: 2.8125rem;
+}
+
+.sub-titulo {
+    color: var(--title);
+    font-size: 1.25rem;
+    font-family: var(--font-title);
+    letter-spacing: 0.125rem;
+}
+
+.img-ponto-colega {
+    display: flex;
+    margin: 2.5rem;
+}
+
+.img-ponto-colega img {
+    width: 100%;
+}
+
+.footer-content {
+    position: relative;
+    justify-content: center;
+    margin: 1.25rem;
+    margin-bottom: 0;
+}
+
+.footer-content img {
+    width: 100%;
+    margin-bottom: -0.3125rem;
+}
+
+.label-float {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 0.625rem;
+    margin-bottom: 0.125rem;
+}
+
+.logo-robotica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--details);
+    border-radius: 1.25rem;
+    margin: 3.125rem;
+    height: 2.5rem;
+}
+
+.img-celz {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+p {
+    top: 0;
+    left: 0;
+    position: sticky;
+    margin-top: -20rem;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+    font-size: 2.5rem;
+    font-family: var(--font-title);
+    color: black;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+mark {
+    background-color: var(--details);
+}
+
+::-webkit-scrollbar {
+    width: 0.875rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #06b620e1;
+    border-radius: 0.625rem;
+    border: 0.1875rem solid #ffffff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #046613e1;
+}
