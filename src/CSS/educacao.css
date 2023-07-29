@@ -26,13 +26,32 @@ header {
 	padding: 1.5625rem;
     background-color: var(--details);
     height: 11.25rem; 
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .banner-educacao img {
+	display: flex;
+	justify-content: center;
+	margin: auto;
 	width: 56.25rem; 
 	height: 8.75rem; 
 	margin-top: -1.5625rem; 
+}
+
+.container-botao {
+	display: flex;
+	margin-right: 10rem;
+	align-items: start;
+	transition: 0.3s ease-in-out;
+}
+
+.container-botao img{
+	margin-top: 1.5625rem;
+}
+
+.container-botao:hover{
+	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .eventos {
