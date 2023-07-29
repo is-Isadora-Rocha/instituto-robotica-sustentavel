@@ -9,6 +9,21 @@ header {
     margin-top: 0;
 }
 
+.container-botao {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.container-botao img {
+    margin-top: 1.2rem;
+    margin-bottom: 0.625rem;
+}
+
+.container-botao img{
+    height: 3rem;
+}
+
 .eventos h2,
 .oficinas h2 {
     font-size: 3rem;
