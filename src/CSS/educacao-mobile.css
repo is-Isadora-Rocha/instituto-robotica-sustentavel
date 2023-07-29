@@ -1,12 +1,26 @@
 header {
-    padding: 1rem;
-    height: auto;
+    height: 6rem;
+    align-items: center;
 }
 
 .banner-educacao img {
     width: 100%;
     height: auto;
     margin-top: 0;
+}
+
+.container-botao {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.container-botao img {
+    margin-bottom: 0.625rem;
+}
+
+.container-botao img{
+    height: 3rem;
 }
 
 .eventos h2,

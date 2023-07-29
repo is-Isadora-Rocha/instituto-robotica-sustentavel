@@ -27,7 +27,24 @@ header {
     padding: 1.5625rem;
     background-color: var(--details);
     height: 5.625rem;
-    justify-content: center;
+    justify-content: start;
+}
+
+.container-botao {
+	display: flex;
+    margin-right: 24rem;
+    align-items: center;
+	transition: 0.3s ease-in-out;
+}
+
+.container-botao img{
+    height: 4rem;
+	margin-top: 0.1rem;
+}
+
+.container-botao:hover{
+	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .titulo-sustentabilidade {

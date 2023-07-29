@@ -1,5 +1,6 @@
 header{
     height: 4.5rem;
+    justify-content: center;
 }
 
 .titulo-sustentabilidade{
@@ -15,6 +16,21 @@ header{
     margin-right: auto;
 }
 
+.container-botao {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: -1rem;
+}
+
+.container-botao img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.625rem;
+}
+
+.container-botao img{
+    height: 3rem;
+}
 
 .sub-titulo {
     font-size: 0.90rem;
