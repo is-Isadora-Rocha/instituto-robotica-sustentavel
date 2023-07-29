@@ -1,6 +1,6 @@
 header {
-    padding: 1rem;
-    height: auto;
+    height: 6rem;
+    align-items: center;
 }
 
 .banner-educacao img {
@@ -16,7 +16,6 @@ header {
 }
 
 .container-botao img {
-    margin-top: 1.2rem;
     margin-bottom: 0.625rem;
 }
 
