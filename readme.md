@@ -21,7 +21,7 @@ Esse projeto foi feito e será mantido/atualizado por estudantes e voluntários 
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Madsonosv">
+      <a href="https://github.com/is-Isadora-Rocha">
         <img src="https://github.com/is-Isadora-Rocha.png" width="100px;" alt="Foto do Isadora Rocha no GitHub"/><br>
         <sub>
           <b>Isadora Rocha</b>
